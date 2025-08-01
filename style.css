@@ -1,0 +1,21 @@
+/* 폰트 */
+
+/* 노멀라이즈 */
+body, ul, li, h1, h2, h3, span, p{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+a{
+  color:inherit;
+  display:inline-block;
+  text-decoration: none;
+}
+/* 라이브러리 */
+.border-r{
+  border:1px solid red;
+}
+
+
+/* 커스텀 */

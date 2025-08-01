@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JEI header</title>
+
+  <!-- 내부링크 -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header_inner">
+      <div class="logo_box">
+        <img src="" alt="">
+      </div>
+      <nav class="menu_box">
+        <ul>
+          <li><a href="#"><span>회사소개</span></a></li>
+          <li><a href="#"><span>도서소개</span></a></li>
+          <li><a href="#"><span>베스트</span></a></li>
+          <li><a href="#"><span>신상품</span></a></li>
+          <li><a href="#"><span>이벤트</span></a></li>
+          <li><a href="#"><span>뉴스</span></a></li>
+        </ul>
+      </nav>
+      <div class="hamberger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </header>
+
+  <style>
+    /* ------- header start ------- */
+    .header_inner {
+      height: 100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      padding: 0 260px;
+    }
+
+    .header_inner .logo_box {
+      background-color: #666;
+      width: 200px;
+      flex-shrink: 0;
+    }
+
+    .header_inner .menu_box {
+      flex-grow: 1;
+      text-align: center;
+    }
+
+    .header_inner .menu_box ul {
+      display: inline-block;
+      height: 100%;
+      color: #222;
+      white-space: nowrap;
+    }
+
+    .header_inner .menu_box ul li {
+      display: inline-block;
+      margin-right: 80px;
+      height: 100%;
+    }
+
+    .header_inner .menu_box ul li:last-child {
+      margin-right: 0;
+    }
+
+    .header_inner .menu_box ul li a {
+      height: 100%;
+      font-size: 22px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .header_inner .hamberger {
+      align-self: center;
+      width: 32px;
+      cursor:pointer;
+      flex-shrink: 0;
+    }
+
+    .header_inner .hamberger div {
+      width: 100%;
+      height: 2px;
+      background-color: #222;
+
+    }
+
+    .header_inner .hamberger div:nth-child(2) {
+      margin: 8px 0;
+    }
+
+    /* ------- header end ------- */
+  </style>
+</body>
+
+</html>
