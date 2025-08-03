@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEI banner</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <main>
+        <section class="banner">
+            <div class="con">
+                <div class="text_box-1">
+                    <span>Inspiring</span>
+                    <br>
+                    <span>Dreams</span>
+                </div>
+                <div class="img_box-1">
+                    <img src="../imgs/banner_img.jpg" alt="">
+                </div>
+                <div class="text_box-2">
+                    <span>Creatimg</span>
+                    <br>
+                    <span>Futures</span>
+                    <br>
+                    <p>아이들의 꿈에 영감을 주고, 그 꿈이 미래가 되도록 함께 만듭니다.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <style>
+        /* ------- banner start ------- */
+        .banner .con {
+            width: 1240px;
+            height:850px;
+            margin: 0 auto;
+            position: relative;
+            padding: 50px 0;
+            box-sizing:border-box;
+        }
+
+
+
+        /* ------- banner imgs start ------- */
+        .banner .img_box-1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+
+        }
+
+        /* ------- banner imgs end ------- */
+
+        /* ------- banner text start ------- */
+        .banner span {
+            font-size: 120px;
+            font-weight: 600;
+            display: inline-block;
+            line-height: 110%;
+            letter-spacing:2px;
+        }
+
+        .banner .text_box-1 {
+            margin-bottom: 100px;
+        }
+
+        .banner .text_box-2 {
+            margin-right: auto;
+            text-align: right;
+        }
+
+        .banner .text_box-2 > p{
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 65px;
+        }
+
+        /* ------- banner text end ------- */
+
+        /* ------- banner end ------- */
+    </style>
+</body>
+
+</html>
