@@ -43,5 +43,12 @@ img{
   border: 1px solid red;
 }
 
+/* 변수 */
+:root {
+  --font-weight-B : 700;
+  --font-weight-SB : 600;
+  --font-weight-M : 500;
+  --font-weight-R : 400;
+}
 
 /* 커스텀 */
